@@ -8,6 +8,6 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "Hello from Spring Boot!";
+        return "welcome to your spring-boot java application, If you see this page your pipeline was successful";
     }   
 }
